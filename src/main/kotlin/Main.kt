@@ -5,7 +5,12 @@ fun main(args: Array<String>) {
     println("Program arguments: ${args.joinToString()}")
 
     var newStack = Stack<Int>(1,2,2,4,5);
-
+    var newQueue = Queue<String>("first order", "second order", "3rd order");
+    println(newQueue.peek())
+    println(newQueue.dequeue())
+    println(newQueue.enqueue("another one interupted"))
+    println(newQueue.peek())
+    println(newQueue.length())
 
 
 
