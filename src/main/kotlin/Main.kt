@@ -6,11 +6,21 @@ fun main(args: Array<String>) {
 
     var newStack = Stack<Int>(1,2,2,4,5);
     var newQueue = Queue<String>("first order", "second order", "3rd order");
-    println(newQueue.peek())
-    println(newQueue.dequeue())
-    println(newQueue.enqueue("another one interupted"))
-    println(newQueue.peek())
-    println(newQueue.length())
+    var newTree = BinarySearchTree()
+
+    newTree.add(6)
+    newTree.add(2)
+    newTree.add(5)
+    newTree.add(7)
+    newTree.add(4)
+    newTree.add(8)
+    newTree.add(1)
+
+    println(newTree.max())
+    println(newTree.min())
+    println(newTree.exists(4))
+    println(newTree.exists(678))
+
 
 
 

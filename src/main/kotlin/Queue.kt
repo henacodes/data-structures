@@ -1,4 +1,4 @@
-class  Queue<T> (vararg val initialItems:T   )  {
+public class  Queue<T> (vararg val initialItems:T   )  {
    private  val items = mutableListOf<T>(*initialItems)
 
 
