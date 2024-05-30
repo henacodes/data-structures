@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b43681b-3780-4bc1-b644-40cf8bbc09ce" name="Changes" comment="Binary search tree">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/LinkedList.kt" afterDir="false" />
+    <list default="true" id="5b43681b-3780-4bc1-b644-40cf8bbc09ce" name="Changes" comment="linked list added">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/HashTable.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -71,13 +71,21 @@
       <option name="project" value="LOCAL" />
       <updated>1716513155894</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="linked list added">
+      <created>1716879900370</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716879900370</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="stack data structure" />
     <MESSAGE value="queue DS" />
     <MESSAGE value="Binary search tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="Binary search tree" />
+    <MESSAGE value="linked list added" />
+    <option name="LAST_COMMIT_MESSAGE" value="linked list added" />
   </component>
 </project>
