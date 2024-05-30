@@ -12,7 +12,7 @@ fun main(args: Array<String>) {
     //println(table.hash("washers"))
     //println(table.hash("lumber"))
 
-    println(table.item("lumber"))
+    println(table.item("lumbers"))
     println(table.item("anthropic"))
 
 

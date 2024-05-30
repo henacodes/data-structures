@@ -35,8 +35,11 @@ class HashTable<T : Any> {
             return null
         }
         val elements = table[index]
-        val result =  elements.filter { el -> el[0] == key}[0][1]
-        return result
+        val result =  elements.filter { el -> el[0] == key}
+        if (result.size > 0){
+            return result[0][1]
+        }
+        return  null
 
     }
 
